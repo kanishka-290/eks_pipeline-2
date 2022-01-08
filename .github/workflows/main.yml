@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       awsregion: ${{ secrets.AWS_REGION }} 
-      CLUSTER_REPO:
+      CLUSTER_REPO: eks-cluster
       ha: ${{ github.sha }}
     steps:
     - name: Checkout
