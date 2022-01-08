@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: helloweb
-        image: z:${BUILD_NUMBER}
+        image: 885820436476.dkr.ecr.us-east-1.amazonaws.com/eks-cluster:${BUILD_NUMBER}
         ports:
         - containerPort: 3000
